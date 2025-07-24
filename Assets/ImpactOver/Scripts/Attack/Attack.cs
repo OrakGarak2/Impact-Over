@@ -6,10 +6,10 @@ using System.Collections.Generic;
 // Unity
 using UnityEngine;
 
-namespace ImpactOver.Player
+namespace ImpactOver.Player.Attack
 {
-    public class PlayerBase : MonoBehaviour
+    public interface Attack
     {
-        
+        public void Attack();
     }
 }
