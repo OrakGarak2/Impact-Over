@@ -5,7 +5,6 @@ using System.Collections.Generic;
 
 // Unity
 using UnityEngine;
-using UnityEngine.InputSystem.Composites;
 
 namespace ImpactOver.Player.Swordsman
 {

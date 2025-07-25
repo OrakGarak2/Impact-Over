@@ -10,10 +10,7 @@ namespace ImpactOver.Player
 {
     public partial class Player : MonoBehaviour
     {
-        protected virtual void Start()
-        {
-            rb2D = GetComponent<Rigidbody2D>();
-            animator = GetComponent<Animator>();
-        }
+        [Header("애니메이션")]
+        [SerializeField] protected Animator animator;
     }
 }
